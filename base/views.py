@@ -1,9 +1,3 @@
-# from django.shortcuts import render
-# from .models import Personalinfo
-# from django.views.generic import ListView
-
-
-# # class Homeview(ListView):
-# #     model=Personalinfo
-# #     context_object_name="msd"
-#     template_name="base/home.html"
+from django.shortcuts import render
+def  Home(request):
+   return render(request,template_name="base/home.html")

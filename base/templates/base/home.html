@@ -1,12 +1,159 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>shashippk</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+
+       .info{
+          padding-left: 10px;
+      }
+      .projects{
+          display: flex;
+      }
+      .about{
+        text-align: center;
+      }
+     .about a{
+          color:white;
+      }
+     .about a:hover{
+        color: white;
+     }
+      /* }
+      .fa-twitter::before{
+          padding-right: 5px;
+          font-size: larger;
+      }
+      .fa-linkedin::before{
+        padding-right: 5px;
+          font-size: larger;
+      }
+      .fa-github::before{
+        padding-right: 5px;
+          font-size: larger;
+      }
+      .fa-envelope::before{
+        padding-right: 5px;
+          font-size: larger;
+      } */
+      
+     .about p{
+          font-weight: 600;
+          padding: 10px;
+      }
+      .fa{
+        padding-right: 5px;
+      }
+@media (max-width: 400px){
+  .myplace{
+    max-width: 20rem;
+  }
+}
+@media (max-width: 360px){
+  .myplace{
+    max-width: 23rem;
+  }
+}
+.card{
+  background: #cb2d3e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.resume{
+  background: #093028;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+  </style>
 </head>
 <body>
-    {%for seven in msd %}
-        <li>{{seven.nickname}}</li>
-    {% endfor %}
+    
 </body>
+<div class="container myplace" style="width: 30rem;margin: auto;margin-top: 50px;">
+  <!-- <center> -->
+    
+    <div class="about" >
+        <img src="https://raw.githubusercontent.com/shashi2602/shashi2602.github.io/master/PSX_20191104_181717%20(2).jpg" height="200" width="250" alt="shashippk " class="rounded-circle img-fluid">
+        <div class="info">
+            <h1>Shashi Pathipaka</h1>
+            <div class="container">
+              <div class="row">
+                <a href="https://github.com/shashi2602" class="badge badge-dark col-sm m-2 p-2" style="background-color:#0f1412;"> <span  class=" fa fa-github" ></span>@shashippk </span></a> 
+                <a href="https://twitter.com/Ppkshashi"class="badge badge-dark col-sm m-2 p-2" style="background-color:#066066;"><span  class=" fa fa-twitter"></span>@Ppkshashi</span></a>
+                <a href="https://www.linkedin.com/in/shashi-preetham-196320165/" style="background-color:#192080;"  class="badge badge-dark col-sm m-2 p-2" ><span  class=" fa fa-linkedin" ></span>shashippk</a>
+                <a href="mailto:shashi.ppk@gmail.com"class="badge badge-dark col-sm m-2 p-2" style="background-color:#237A57;"><span  class=" fa fa-envelope"></span>Mail</span> </a>
+              </div>
+           
+              
+          </div>
+        <p>Loved to learn new things,surffing internet,learning something new every day</p>
+        </div>
+    </div>
+  <!-- </center>   -->
+</div>
+<h3 class="text-center" style="padding: 10px;font-size: xx-large;">Projects</h3>
+<div class="container" >
+    
+    <div class="row">
+       
+        
+            <div class="card col-sm m-2" style="width: 35rem;background-color: darkcyan; color: white;">
+                <div class="card-body">
+                  <h5 class="card-title">Lessthan</h5>
+                  <p class="card-text text-justify">Lessthan is the android application were it fetchs the tech news from the api. the features of it is we can check the mobile details and avilability</p>
+                  <span class="badge badge-primary">Flutter</span>
+                    <span class="badge badge-dark">Dart</span><br>
+                    <a href="https://github.com/shashi2602/lessthan" class="card-link">source code</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.bromaa.lessthan" class="card-link">playstore</a>
+                </div>
+              </div>
+           
+    
+              <div class="card col-sm m-2" style="width: 35rem;background-color: firebrick;color: white;">
+                <div class="card-body">
+                  <h5 class="card-title">Lesscric</h5>
+                  <p class="card-text text-justify">It was an sports application were it fetchs data from cricbuzz api</p>
+                  <span class="badge badge-primary">Flutter</span>
+                    <span class="badge badge-dark">Dart</span>
+                    <a href="https://github.com/shashi2602/lesscric" class="card-link">Source code</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.bromaa.lesscrick" class="card-link">Playstore</a>
+                </div>
+              </div>
+    
+    
+    
+              <div class="card col-sm m-2" style="width: 35rem;background-color: tomato;color: white;">
+                <div class="card-body">
+                  <h5 class="card-title">weather</h5>
+                  <p class="card-text text-justify">It was a basic weather web application,developed with flask</p>
+                  <span class="badge badge-primary">Flask</span>
+                    <span class="badge badge-dark">Python</span>
+                    <a href="https://github.com/shashi2602/weather" class="card-link">Source code</a>
+                    <a href="https://ppkweather.herokuapp.com/" class="card-link">Live</a>
+                    
+                </div>
+              </div>
+        
+    </div>
+    
+    <div class="jumbotron text-center jumbotron-fluid resume" style="margin-top: 50px;">
+      <div class="container"></div>
+        <h1 style="color: white;">Get My Resume</h1>
+          <a class="btn btn-primary btn-lg" href="https://docs.google.com/document/d/1vCG6__D1VeUfFk8e8iDaFNghXD5kIZlbyZm3ijCHmKg/edit?usp=sharing">Download</a>
+        </p>
+      </div>
+    </div>
+    
+</div>
+
 </html>
