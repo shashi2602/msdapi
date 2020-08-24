@@ -61,18 +61,21 @@
     max-width: 23rem;
   }
 }
-.card{
-  background: #cb2d3e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* .card{
+  background: #cb2d3e;  
+background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  
+background: linear-gradient(to right, #ef473a, #cb2d3e); 
 
 
-}
+} */
 .resume{
   background: #093028;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+.cardbottom{
+    padding-top: 10px;
 }
   </style>
 </head>
@@ -107,45 +110,79 @@ background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, F
     <div class="row">
        
         
-            <div class="card col-sm m-2" style="width: 35rem;background-color: darkcyan; color: white;">
+            <div class="card col-sm m-2 text-white bg-dark" style="width: 35rem;">
+                <div class="card-header text-left">
+                    Flutter
+                </div>
                 <div class="card-body">
                   <h5 class="card-title">Lessthan</h5>
                   <p class="card-text text-justify">Lessthan is the android application were it fetchs the tech news from the api. the features of it is we can check the mobile details and avilability</p>
                   <span class="badge badge-primary">Flutter</span>
                     <span class="badge badge-dark">Dart</span><br>
-                    <a href="https://github.com/shashi2602/lessthan" class="card-link">source code</a>
-                    <a href="https://play.google.com/store/apps/details?id=com.bromaa.lessthan" class="card-link">playstore</a>
+                    <div class="cardbottom">
+                    <a href="https://github.com/shashi2602/lessthan" class="btn btn-outline-info">source code</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.bromaa.lessthan" target="_blank" class="btn btn-outline-success">playstore</a>
+                    </div>
                 </div>
               </div>
            
     
-              <div class="card col-sm m-2" style="width: 35rem;background-color: firebrick;color: white;">
+              <div class="card col-sm m-2 text-white bg-dark" style="width: 35rem;">
+                <div class="card-header text-left">
+                    Flutter
+                </div>
                 <div class="card-body">
+
                   <h5 class="card-title">Lesscric</h5>
                   <p class="card-text text-justify">It was an sports application were it fetchs data from cricbuzz api</p>
                   <span class="badge badge-primary">Flutter</span>
                     <span class="badge badge-dark">Dart</span>
-                    <a href="https://github.com/shashi2602/lesscric" class="card-link">Source code</a>
-                    <a href="https://play.google.com/store/apps/details?id=com.bromaa.lesscrick" class="card-link">Playstore</a>
+                    <div class="cardbottom">
+                    <a href="https://github.com/shashi2602/lesscric" class="btn btn-outline-info">Source code</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.bromaa.lesscrick" target="_blank" class="btn btn-outline-success">Playstore</a>
+                     </div>
                 </div>
               </div>
     
     
     
-              <div class="card col-sm m-2" style="width: 35rem;background-color: tomato;color: white;">
+              <div class="card col-sm m-2 text-white bg-dark" style="width: 35rem;">
+                <div class="card-header text-left">
+                    Python
+                </div>
                 <div class="card-body">
                   <h5 class="card-title">weather</h5>
                   <p class="card-text text-justify">It was a basic weather web application,developed with flask</p>
                   <span class="badge badge-primary">Flask</span>
                     <span class="badge badge-dark">Python</span>
-                    <a href="https://github.com/shashi2602/weather" class="card-link">Source code</a>
-                    <a href="https://ppkweather.herokuapp.com/" class="card-link">Live</a>
-                    
+                    <div class="cardbottom">
+                    <a href="https://github.com/shashi2602/weather" class="btn btn-outline-info">Source code</a>
+                    <a href="https://ppkweather.herokuapp.com/" target="_blank" class="btn btn-outline-success">Live</a>
+                    </div>
                 </div>
               </div>
         
     </div>
-    
+    <div class="row">
+        <div class="card col-sm m-2 mb-3 text-white bg-dark" style="width: 35rem;">
+            <div class="card-header text-left">
+                API
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">MS Dhoni api</h5>
+              <p class="card-text text-justify">This api has the each an every details of the Ms dhoni who was the cricket player of india team.
+                <br>  Use <code>/doc</code>,<code>/swagger</code> for the documentation
+              </p>
+                <span class="badge badge-primary">Python</span>
+                <span class="badge badge-dark">Django</span>
+                <br>
+                <div class="cardbottom">
+                    <a href="" class="btn btn-outline-info" disabled>source code</a>
+                    <a href="https://msdapi.herokuapp.com/api/v1/"target="_blank" class="btn btn-outline-success">Live</a>
+                </div>
+            </div>
+          </div>
+    </div>
     <div class="jumbotron text-center jumbotron-fluid resume" style="margin-top: 50px;">
       <div class="container"></div>
         <h1 style="color: white;">Get My Resume</h1>
